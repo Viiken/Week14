@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+  justify-content: center;
+}
+
+
+input[type="radio"] {
+  display: none;
+}
+
+.submitButton {
+  padding: 10px 24px;
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  cursor: pointer;
+  transition: .3s ease;
+  border-radius: 15px;
+  margin-top: 10px;
+
+}
+.submitButton:Hover{
+  color: blue;
+  background-color: white;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -200px;
+}
+
+.comment-text {
+  margin: 12px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-box {
+  height: 100px;
+  width: 500px;
+  font-weight: 600;
+  background-color: white;
+  margin-top: 15px;
+}
+
+.comment-container {
+  height: 100px;
+  width: 500px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 0;
+  word-break: break-all;
+}
